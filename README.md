@@ -19,4 +19,6 @@ mux21->2:1 mux
 
 There is a Results1.csv file attached to see the results for the design
 
+If a row is read totally 0 in a csv file, the design is non-sythesisable.
+
 
