@@ -8,9 +8,13 @@ tcl_add1.tcl: creates a project named project3 and add all the designs present i
 tcl_run3.tcl: helps in sythesizing of code and store results
 
 This repo also contain designs which I have tried to synthesize through this tool. The design are as follows:
+
 dff->d flip flop
+
 multiply-> 8 bit multiplier
+
 mutiply_not_synth->Huge multiplier which is not synthesisable
+
 mux21->2:1 mux
 
 There is a Results1.csv file attached to see the results for the design
