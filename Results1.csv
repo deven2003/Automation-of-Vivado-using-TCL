@@ -1,0 +1,5 @@
+,DesignName,DatapathDelay,logic_delay,routing_delay,DynamicPower,static_power,signal_power,logic_power,i_o_power,total_power,f7_muxes,lut_as_memory,lut_as_logic,slice_lut,lut1,lut2,lut3,lut4,lut5,lut6,lut7
+0,dff,11.381,5.176,6.205,15.24,0.214,0.679,0.545,14.015,15.454,0.0,0.0,80.0,80.0,0,30.0,7.0,21.0,1.0,45.0,0
+1,mux21,5.614,3.377,2.237,0.351,0.132,0.011,0.002,0.339,0.483,0.0,0.0,1.0,1.0,0,0.0,1.0,0.0,0.0,0.0,0
+2,multiply,11.381,5.176,6.205,15.24,0.214,0.679,0.545,14.015,15.454,0.0,0.0,80.0,80.0,0,30.0,7.0,21.0,1.0,45.0,0
+3,multiply_not_synth,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0
