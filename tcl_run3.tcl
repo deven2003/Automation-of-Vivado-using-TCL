@@ -23,13 +23,12 @@ foreach file $file_list {
     wait_on_run synth_1
     set log_content [read [open $log_file_path]]
 
-        # Check if synthesis log contains keywords indicating failure
+        # Check if synthesis log contains simulation error
         if {[file exists $log_file_path]} {
             if {[string match -nocase "*Vivado Synthesis failed*" $log_content]} {
-                # Print the error message from the log
+                # Prints the error message from the log
                 puts "Synthesis failed for $file_name. Error message from log:\n$log_content"
-
-                # Continue to the next iteration of the loop
+                # Continue to the next iteration of the loop skipping all the instructions below
                 continue
             }
         }
